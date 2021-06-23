@@ -7,6 +7,6 @@ The project's main goal was to clean data from a set of 2.1 million comments gat
 # WorkLoad
 The main issues with the code at the time were an incorrectly formatted output file (.csv) and general bugs that caused the program to error out after processing over 100 data points. I had to read through all of the created programs and find the issues that lead to errors in the output file and fix bugs with the code. I also ended up adding error logging and error handling to most of the code to troubleshoot the issues being experienced. 
 
-After these initial problems were resolved, we also had to add features to better filter through useless data in our data set to be excluded from our final output. After this filtering was implemented, the final data count came out to be ~1.9 million comments and required multithreading to be processed in time for the paper submission deadline that our grad student partners had.
+After these initial problems were resolved, I also had to add features to better filter through useless data in the data set to be excluded from the final output. After this filtering was implemented, the final data count came out to be ~1.9 million comments and required multithreading to be processed in time for the paper submission deadline that our grad student partners had.
 
 NOTE: reddit_new.py and reddit_new_fixed_json_dump.py were the driving files for this project, with reddit_new.py outputing in .csv format and reddit_new_fixed_json_dump.py outputting in .json format.
