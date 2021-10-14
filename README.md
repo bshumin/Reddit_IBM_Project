@@ -11,3 +11,5 @@ After these initial problems were resolved, I also had to add features to better
 
 -------
 NOTE: reddit_new.py and reddit_new_fixed_json_dump.py were the driving files for this project, with reddit_new.py outputing in .csv format and reddit_new_fixed_json_dump.py outputting in .json format.
+
+NOTE 2: all usernames and passwords were removed from the code, and replaced with strings showing where you would insert your credentials
