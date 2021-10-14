@@ -19,11 +19,11 @@ def getKey(item):
 
 
 service = NaturalLanguageUnderstandingV1(
-    version='2018-03-16',
+    version='current-version',
     # url is optional, and defaults to the URL below. Use the correct URL for your region.
-    url='https://gateway.watsonplatform.net/natural-language-understanding/api',
-    username='c2781ef5-373f-4dcb-8ce5-8ac101f00903',
-    password='gp0r4wymoCbh')
+    url='your-url',
+    username='your-username',
+    password='your-password')
 
 with open('largeSample.json', 'r') as inputFile:
     comments_dict_temp = json.load(inputFile)
